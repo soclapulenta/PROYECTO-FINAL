@@ -1,0 +1,50 @@
+.img{
+    max-width: 150px;
+}
+.nav-item{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    margin: 1.5rem;
+    
+
+}
+
+.bd-footer{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    margin: 1.5rem;
+}
+
+.card-title{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+  
+    color: #a47132;
+
+    }
+
+    .row-justify-content-md-center{
+        margin: 100rem;
+        justify-content: space-between ;
+    }
+
+    .main{
+        margin-top: 10rem;
+    }
+
+    .form-label{
+        @extend %estiloTitulo;
+    }
+
+    .container-text-center-bg-info{
+border-radius: 100px ;    }
+
+h5{
+    @extend %estiloParrafo;
+    padding: 10px;
+}
+
+.mainContacto{
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+}
